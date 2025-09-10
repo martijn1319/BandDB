@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ZCS1WYQjw0=",
+  "success": true,
+  "projectFilePath": "/home/flipflop/Documents/banddb/BandDB/BandDB.csproj",
+  "expectedPackageFiles": [
+    "/home/flipflop/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
