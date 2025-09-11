@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HR4/3UIuyno=",
+  "dgSpecHash": "bm8T3H64g+A=",
   "success": true,
-  "projectFilePath": "/home/flipflop/Documents/banddb/BandDB/BandDB.csproj",
+  "projectFilePath": "/home/flipflop/Documents/banddb-fork/BandDB/BandDB.csproj",
   "expectedPackageFiles": [
     "/home/flipflop/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/flipflop/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
