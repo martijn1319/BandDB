@@ -9,6 +9,7 @@ public class Band
     public string Genre { get; set; } = "";
     public int YearFormed { get; set; }
     public bool IsActive { get; set; }
+    public List<Musician> Musicians { get; set; } = new();
 
     public Band(string name, string genre, int yearFormed, bool isActive) 
     {
