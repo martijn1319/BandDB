@@ -3106,6 +3106,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.9",
+      "Microsoft.EntityFrameworkCore.Design >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.9"
     ]
@@ -3116,11 +3117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/flipflop/Documents/banddb/BandDB/BandDB.csproj",
+      "projectUniqueName": "/home/flipflop/Documents/banddb-fork/BandDB/BandDB.csproj",
       "projectName": "BandDB",
-      "projectPath": "/home/flipflop/Documents/banddb/BandDB/BandDB.csproj",
+      "projectPath": "/home/flipflop/Documents/banddb-fork/BandDB/BandDB.csproj",
       "packagesPath": "/home/flipflop/.nuget/packages/",
-      "outputPath": "/home/flipflop/Documents/banddb/BandDB/obj/",
+      "outputPath": "/home/flipflop/Documents/banddb-fork/BandDB/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/flipflop/.nuget/NuGet/NuGet.Config"
@@ -3154,6 +3155,12 @@
         "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.9, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[9.0.9, )"
           },
