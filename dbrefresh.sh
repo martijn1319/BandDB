@@ -8,8 +8,8 @@ if [ -z "$MIGRATION_NAME" ]; then
   exit 1
 fi
 
-# optional: drop DB cleanly instead of deleting files
-dotnet ef database drop -f
+# copy to backup folder
+cp banddb.db Backups/banddb_$(date +%Y%m%d_%H%M%S).db
 
 # add migration
 dotnet ef migrations add "$MIGRATION_NAME"
